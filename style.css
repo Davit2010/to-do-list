@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  user-select: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #3f72af;
+}
+.parent {
+  gap: 10px;
+  width: 570px;
+  background-color: #f9f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 6px;
+}
+.input {
+  border-radius: 4px;
+  padding: 2px 8px;
+  width: 250px;
+  height: 32px;
+  font-size: medium;
+  border: 0px;
+  outline: 0;
+  background-color: #dbe2ef;
+}
+.add-cont {
+  width: fit-content;
+  border-radius: 3px;
+  display: flex;
+  gap: 3px;
+}
+.push {
+  border: 0;
+  width: 45px;
+  height: 32px;
+  font-size: 22px;
+  padding: 3px 5px;
+  border-radius: 0 4px 4px 0;
+  color: aliceblue;
+  background-color: #959595;
+  cursor: pointer;
+}
+.push:hover {
+  background-color: #5a5858;
+}
+.list-cont {
+  width: 100%;
+}
+.list-cont-top {
+  display: flex;
+}
+.checkbox-cont {
+  display: block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.checkbox-cont-add-class {
+  background-image: url(./img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 3px;
+}
+.checkboxx {
+  display: none;
+}
+.list-cont-divs {
+  width: 500px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: x-large;
+  padding: 10px;
+  background-color: #dbe2ef;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+.delet {
+  color: white;
+  padding: 5px;
+  background-color: rgb(249, 75, 75);
+  border-radius: 3px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.delet:hover {
+  background-color: rgb(201, 65, 65);
+}
+
+.del-all {
+  border: 1px solid grey;
+  color: aliceblue;
+  background-color: rgb(249, 75, 75);
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.del-all:hover {
+  background-color: rgb(201, 65, 65);
+}
+
+.redact {
+  color: aliceblue;
+  background-color: #949494;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.redact:hover {
+  background-color: grey;
+}
+.checked {
+  text-decoration-line: line-through;
+}
+
+.bottom-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  margin: auto;
+  padding-bottom: 4px;
+}
+.count-cont {
+  font-size: 20px;
+}
+.text {
+  margin-left: 60px;
+}
